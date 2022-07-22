@@ -1,0 +1,231 @@
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --white-text-color: #FFFFFF;
+    --blue-color: #2196F3;
+    --blue-hover-color: #188CE8;
+    --background-back-color: #2f303a;
+    --logo-part2-color: #000000;
+    --footer-color: rgba(255, 255, 255, 0.6);
+    --button-bg-color: #F5F4FA;
+    --team-bg-color: #F5F4FA;
+    --main-bg-color: #F5F5F5;
+}
+
+body {
+    background-color: var(--main-bg-color);
+    font-family: "roboto", sans-serif;
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.hero {
+    background-color: var(--background-back-color);
+}
+
+.hero .text {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--white-text-color);
+}
+
+.hero-button {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--white-text-color);
+    width: 216px;
+    height: 50px;
+    background-color: var(--blue-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+
+.hero-button:hover,
+.hero-button:focus,
+.hero-button:active {
+    background-color: var(--blue-hover-color);
+    cursor: pointer;
+}
+
+.button {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+    background-color: var(--button-bg-color) border-radius: 4px;
+    ;
+}
+
+.button:hover,
+.button:focus,
+.button:active {
+    color: var(--white-text-color);
+    background-color: var(--blue-color);
+    cursor: pointer
+}
+
+.tag {
+    color: var(--white-text-color);
+    background-color: var(--blue-color);
+}
+
+.header {
+    background-color: var(--white-text-color);
+}
+
+.logo-part1,
+.logo-part2,
+.logo-part3 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+
+.logo-part1 {
+    color: var(--blue-color);
+}
+
+.logo-part2 {
+    color: var(--logo-part2-color);
+}
+
+.logo-part3 {
+    color: var(--white-text-color);
+}
+
+.site-nav .link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--title-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--blue-color);
+}
+
+.site-nav .current {
+    color: var(--blue-color);
+}
+
+.site-adress .link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+}
+
+.site-adress .link:hover,
+.site-adress .link:focus {
+    color: var(--blue-color);
+}
+
+.city-adress {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--white-text-color);
+}
+
+.city-adress:hover,
+.city-adressfocus {
+    color: var(--blue-color);
+}
+
+.site-footer .contacts {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--footer-color);
+}
+
+.site-footer .contacts:hover,
+.site-footer .contacts:focus {
+    color: var(--blue-color);
+}
+
+.footer {
+    background-color: var(--background-back-color);
+}
+
+.benefits .head,
+.examples .name {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--title-text-color);
+}
+
+.benefits .text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+}
+
+.wedo .head,
+.team .head {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+}
+
+.team {
+    background-color: var(--team-bg-color);
+}
+
+.team .name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+}
+
+.team .job {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+}
+
+.examples .type {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+}
