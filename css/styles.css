@@ -44,7 +44,6 @@ img {
 }
 
 body {
-	background-color: var(--main-bg-color);
 	font-family: "roboto", sans-serif;
 }
 
@@ -74,13 +73,13 @@ body {
 .hero {
 	background-color: var(--background-back-color);
 	text-align: center;
+	padding: 200px 0px;
 }
 
 .hero .text {
 	width: 696px;
 	margin: auto;
-	padding-top: 200px;
-	padding-bottom: 30px;
+	margin-bottom: 30px;
 
 	font-weight: 900;
 	font-size: 44px;
@@ -91,7 +90,6 @@ body {
 }
 
 .hero-button {
-	margin-bottom: 200px;
 	padding: 10px 32px;
 	font-family: "Roboto";
 	font-weight: 700;
@@ -138,7 +136,6 @@ body {
 .contflex-nav {
 	display: flex;
 	align-items: center;
-	justify-content: space-between;
 }
 
 .link-logo {
@@ -209,6 +206,7 @@ body {
 
 .site-adress {
 	display: flex;
+	margin-left: auto;
 }
 
 .site-adress .item {
@@ -263,7 +261,15 @@ body {
 	margin-bottom: 10px;
 }
 
-.benefits .head,
+.benefits .head {
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 1.14;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	color: var(--title-text-color);
+}
+
 .examples .name {
 	font-weight: 700;
 	font-size: 18px;
@@ -374,29 +380,24 @@ body {
 	color: var(--blue-color);
 }
 
-.site-footer {
-	padding-bottom: 60px;
-}
-
 .footer {
 	background-color: var(--background-back-color);
+	padding: 60px 0px;
 }
 
 .footer-logo {
-	padding-top: 60px;
-	padding-bottom: 20px;
+	margin-bottom: 20px;
 }
 
 .footer-list {
-	padding-bottom: 9px;
+	margin-bottom: 9px;
 }
 
 .list-buttons {
 	width: 575px;
 	display: flex;
 	margin: auto;
-	padding-bottom: 16px;
-	margin-bottom: 34px;
+	margin-bottom: 50px;
 	justify-content: center;
 	border: none;
 	border-radius: 4px;
@@ -419,7 +420,6 @@ body {
 	width: calc((100% - 60px) / 3);
 	margin-right: 30px;
 	margin-bottom: 30px;
-	border: 1px solid var(--border-card-line);
 }
 
 .exampl-element:nth-last-child(-n + 3) {
@@ -431,10 +431,12 @@ body {
 }
 
 .exampl-element .name {
-	margin-top: 20px;
 	margin-bottom: 4px;
 }
 
-.exampl-element .type {
-	margin-bottom: 20px;
+.exampl-card {
+	border-left: 1px solid var(--border-card-line);
+	border-right: 1px solid var(--border-card-line);
+	border-bottom: 1px solid var(--border-card-line);
+	padding: 20px 24px;
 }
